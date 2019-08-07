@@ -59,6 +59,8 @@ $ bundle install --path vendor/bundle
 
 This should install a local copy of jekyll.
 
+You may need to update your local setup with `$ gem update --system` and edit the `Gemfile.lock` to use the correct version of `rouge`.
+
 Now run the server:
 ```sh
 $ ./vendor/bundle/ruby/#{YOUR_RUBY_VERSION}/bin/jekyll server
