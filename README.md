@@ -1,7 +1,7 @@
 # _Airspace_ for Jekyll
 ![screenshot](screenshots/home.png "Description goes here")
 
-This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the licnese please contact with [them](mailto:themefisher@gmail.com)
+This Jekyll theme is a port of [ThemeFisher's](https://themefisher.com) [Airspace template](https://themefisher.com/products/airspace-free-bootstrap-website-template/). It is released under ThemeFisher's [license](https://themefisher.com/license) , which requires attribution. Concern about the license please contact with [them](mailto:themefisher@gmail.com)
 
 ## Usage
 To start your project, [fork this respository](https://github.com/ndrewtl/airspace-jekyll/fork), put in your content, and go!
@@ -58,6 +58,8 @@ $ bundle install --path vendor/bundle
 ```
 
 This should install a local copy of jekyll.
+
+You may need to update your local setup with `$ gem update --system` and edit the `Gemfile.lock` to use the correct version of `rouge`.
 
 Now run the server:
 ```sh
