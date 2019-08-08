@@ -59,7 +59,8 @@ a:active {
 .section-title p {
   font-family: 'Volkhov', serif;
   font-style: italic;
-  color: #666;
+  color: #000000;
+  /* color: #666; */
 }
 /*--
 	Header Start
@@ -146,8 +147,9 @@ font header .navbar-default .navbar-nav li a:hover {
   margin: 0;
 }
 #intro .block p {
-  color: #7B7B7B;
+  /* color: #7B7B7B; */  /* About us block */
   padding-top: 20px;
+  color: #000000;
 }
 #intro .block img {
   padding-left: 40px;
@@ -231,7 +233,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Feature Start
 --*/
 #feature {
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/feature-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
   display: block;
@@ -258,8 +260,9 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-bottom: 30px;
 }
 #feature p {
-  color: #8d8f92;
+  /* color: #8d8f92; */ /* WE BELIEVE IN GREAT SCIENCE */
   margin-bottom: 20px;
+  color: #000000;
 }
 #feature .btn-view-works {
   background: #655E7A;
