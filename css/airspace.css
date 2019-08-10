@@ -154,10 +154,20 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
   color: #000000;
 }
-#intro .block img {   /* Wrapper image */
-  padding-left: 40px;
-  width: 100%;
-  padding-top: 100px;
+
+/* @media selects between tablet/phone and desktop so that image is resized correctly */
+@media only screen and (max-width: 960px) {
+  #intro .block img {   /* Wrapper image */
+    width: 100%;
+    padding-top: 100px;
+  }
+}
+@media only screen and (min-width: 961px) {
+  #intro .block img {   /* Wrapper image */
+    padding-left: 40px;
+    width: 100%;
+    padding-top: 100px;
+  }
 }
 #intro .section-title {
   margin-bottom: 0px;
