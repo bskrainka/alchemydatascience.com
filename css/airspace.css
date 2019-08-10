@@ -154,9 +154,10 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
   color: #000000;
 }
-#intro .block img {
+#intro .block img {   /* Wrapper image */
   padding-left: 40px;
   width: 100%;
+  padding-top: 100px;
 }
 #intro .section-title {
   margin-bottom: 0px;
